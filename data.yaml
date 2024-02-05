@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['Good luck', 'Hello', 'Hungry', 'Love', 'Not OK', 'OK', 'Sad', 'Sorry', 'Thank you', 'head', 'helmet', 'person']
+
+roboflow:
+  workspace: hand-b5jyo
+  project: hard-hat-sample-dlovg
+  version: 3
+  license: Public Domain
+  url: https://app.roboflow.com/hand-b5jyo/hard-hat-sample-dlovg/3
